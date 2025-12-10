@@ -51,8 +51,24 @@ Codes: VALIDATION_ERROR, BAD_REQUEST, NOT_FOUND, FORBIDDEN, UNAUTHORIZED, INTERN
 
 Folders
 -------
-`src/main/java/com/example/RideShare/`
-- `model/`, `repository/`, `service/`, `controller/`, `config/`, `dto/`, `exception/`, `util/`
+```
+src/
+ ├─ main/
+ │   ├─ java/
+ │   │   └─ com/example/RideShare/
+ │   │        ├─ config/
+ │   │        ├─ controller/
+ │   │        ├─ dto/
+ │   │        ├─ exception/
+ │   │        ├─ model/
+ │   │        ├─ repository/
+ │   │        ├─ service/
+ │   │        └─ util/
+ │   └─ resources/
+ │        └─ application.properties
+ └─ test/
+     └─ java/...
+```
 
 Quick Test (curl)
 -----------------
